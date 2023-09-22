@@ -3,12 +3,21 @@ import styled from "styled-components";
 const Container = styled.div`
   width: 1172px;
   margin: 0 auto;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 Container.Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 21px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    width: 100%;
+  }
 `;
 Container.LogoInfo = styled.div`
   display: flex;
@@ -21,6 +30,9 @@ Container.Logotext = styled.h1`
 `;
 Container.Search = styled.div`
   display: flex;
+  @media (max-width: 768px) {
+    order: 3;
+  }
 `;
 Container.SearchInput = styled.input`
   width: 403px;
@@ -32,6 +44,10 @@ Container.SearchInput = styled.input`
   color: #b0b0b0;
   font-size: 14px;
   line-height: normal;
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 6px 0 6px 15px;
+  }
 `;
 Container.Select = styled.select`
   color: #555;

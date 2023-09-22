@@ -7,3 +7,7 @@
 :root {
   --main-color: #7AC751;
 }
+hr{
+  width: 260px;
+  background: #E3E3E3;
+}
