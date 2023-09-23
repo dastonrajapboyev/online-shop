@@ -7,6 +7,7 @@ import HeroImage2 from "../../assets/hero-img/hero2.png";
 import HeroImage3 from "../../assets/hero-img/hero3.png";
 import HeroImage4 from "../../assets/hero-img/hero4.png";
 
+
 const Hero = () => {
   return (
     <Container>

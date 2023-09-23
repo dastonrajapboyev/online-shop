@@ -10,7 +10,7 @@ margin: 0 auto;
 
 Container.Header = styled.header`
 display: flex;
-justify-content: space-between;
+justify-content: space-evenly;
 color: #fff;
 padding: 16px 0;
 @media (max-width: 768px) {
